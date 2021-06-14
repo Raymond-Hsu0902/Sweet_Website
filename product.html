@@ -52,12 +52,22 @@
             <div class="row d-flex justify-content-center mb-3">
                 <div class="col-md-4 col-12">
                     <div class="card" style="width: 300px;">
-                        <ul class="list-group list-group-flush text-center h4">
+                        <ul class="list-group list-group-flush text-center h4 ">
                             <li class="list-group-item bg-primary border-0 text-center text-light">甜點類別</li>
-                            <li class="list-group-item bg-light border-0">所有甜點 (48)</li>
-                            <li class="list-group-item">本日精選 (10)</li>
-                            <li class="list-group-item">人氣推薦 (26)</li>
-                            <li class="list-group-item">新品上市 (12)</li>
+                        </ul>
+                        <ul class="list-group list-group-flush text-center h4 ">
+                            <li class="list-group-item bg-light border-0">
+                                <a href="#">所有甜點 (48)</a>
+                                </li>
+                            <li class="list-group-item">
+                                <a href="#">本日精選 (10)</a>
+                                </li>
+                            <li class="list-group-item">
+                                <a href="#">人氣推薦 (26)</a>
+                                </li>
+                            <li class="list-group-item">
+                                <a href="#">新品上市 (12)</a>
+                                </li>
                         </ul>
                     </div>
                 </div>
@@ -168,19 +178,23 @@
     <section class=" bg-primary p-3 p-md-5 mt-5">
         <footer class="container">
             <div class="row mx-5">
-                <div class="col-12 col-lg-6 my-2 my-md-0">
+                <div class="col-12 col-lg-6 my-2 my-md-0 d-flex align-items-center">
                     <a class="navbar-brand text-light">
-                        <img src="/img/logo-light.png" width="40" class="d-inline-block" alt="">
+                        <img src="img/logo-light.png" width="40" class="d-inline-block" alt="">
                         訂閱你我的甜蜜郵件
                     </a>
                 </div>
                 <div class="col-12 col-lg-6 my-2 my-md-0">
                     <div class="mail input-group w-100">
-                        <input type="text" class="form-control border-0" placeholder="Recipient's username"
+                            <label for="mail" class="border-0 mail-image d-flex align-items-center" >
+                                <img src="https://hexschool.github.io/webLayoutTraining1st/student-week1/mail-24px.png">
+                            </label>
+                            <input type="email" id="mail" class="form-control border-0" placeholder="Recipient's username"
                             aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <div class="input-group-append border-0">
-                            <span class="input-group-text  bg-secondary" id="basic-addon2">-></span>
-                        </div>
+                                <a href="#" class="bg-secondary  d-flex align-items-center mail-button" id="basic-addon2">
+                                    ->
+                                    <img src="">
+                                </a> 
                     </div>
                 </div>
             </div>
@@ -191,19 +205,20 @@
         <div class="container pt-5">
             <div class="row mx-5">
                 <div class="col-12 col-lg-6 d-flex flex-column my-2">
-                    <img src="/img/logotype.png" width="170" alt="">
+                    <img src="img/logotype.png" width="170" alt="">
                     <div class="mt-auto">
-                        <p>07-1234-5678</p>
-                        <p>sweetaste@email.com</p>
+                        <p><a href="tel:0712345678">07-1234-5678</a></p>
+                        <p>
+                            <a href="mailto:sweetaste@email.com">sweetaste@email.com</a></p>
                         <p>800 高雄市新興區幸福路520號</p>
                     </div>
                 </div>
                 <div class="d-none col-lg-6 d-lg-flex justify-content-end  my-2">
-                    <img class="col-lg-3" src="/img/sm-今天是個吃甜點的好日子.png" width="60" alt="">
+                    <img class="col-lg-3" src="img/sm-今天是個吃甜點的好日子.png" width="60" alt="">
                 </div>
                 <div class="col-12 col-lg-6 d-flex align-items-end my-2">
-                    <img src="/img/ic-facebook.png" width="32" height="32" alt="">
-                    <img src="/img/ic-line@.png" width="32" height="32" alt="">
+                    <img src="img/ic-facebook.png" width="32" height="32" alt="">
+                    <img src="img/ic-line@.png" width="32" height="32" alt="">
                 </div>
                 <div class="col-12 col-lg-6 d-flex justify-content-md-end my-2">
                     <p class="m-0">© 2018 Sweetaste* All Rights Reserved</p>
