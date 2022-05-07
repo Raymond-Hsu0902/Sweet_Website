@@ -195,6 +195,9 @@ html {
 
 .add-cart {
   padding: 16px 90px;
+  background: #EAF0ED 0% 0% no-repeat padding-box;
+      box-sizing: border-box;
+    width: 300px;
 }
 
 .sweet-card {
@@ -241,4 +244,14 @@ a {
 
 .mail-button {
   padding: 20px 24px;
+}
+
+/*list group item */
+.list-group-item:hover{
+  background: #EAF0ED 0% 0% no-repeat;
+}
+
+/**/
+h4{
+  font: normal normal 600 24px/40px PingFang TC;
 }
